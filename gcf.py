@@ -1,7 +1,7 @@
 def print_factors(x):
     factors_list = []
     for i in range(1, x + 1):
-       if x % i == 0:
+       if x % i  == 0:
            factors_list.append(i)
     return factors_list
 num1 = int(input("What is your first number: "))
